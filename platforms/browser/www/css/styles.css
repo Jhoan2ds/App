@@ -1,0 +1,50 @@
+body{
+	background: rgb(43,238,217);
+    background: linear-gradient(90deg, rgba(43,238,217,1) 0%, rgba(9,121,18,1) 53%, rgba(0,212,255,1) 100%)
+}
+
+nav{
+	background:rgba(255,255,255, 0.5);
+}
+.contenido{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.foto{
+	width: 40%;
+	margin: 0 auto;
+}
+
+.imagen{
+	max-width: 100%;
+	height: auto;
+}
+.menu{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	color: black;
+}
+
+.menu li a{
+	text-decoration: none;
+	font-size: 150%;
+	font-family: verdana;
+	color: #FFFFFF;
+}
+
+.menu li a:hover{
+	text-decoration: overline;
+}
+
+@media screen and (max-width: 500px){
+	.menu{
+		flex-direction: column;
+	}
+	.menu li{
+		border-bottom:solid 0.1em #E71B1B;
+		text-align: center;
+	}
+}
+
